@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" href="../styles1.css" rel="stylesheet" />
+    <link type="text/css" href="./styles1.css" rel="stylesheet" />
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
 </head>
@@ -14,7 +14,7 @@
 <body>
     <!-- <model-viewer> HTML element -->
     <model-viewer id="hotspot-camera-view-demo" src="anatomy_of_the_airways.glb" alt="Thor and the Midgard Serpent"
-        touch-action="none" ar-modes="webxr scene-viewer quick-look" camera-controls poster="../poster.webp"
+        touch-action="none" ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp"
         shadow-intensity="1" camera-target="0.15m -497.32m 43.89m" camera-orbit="40.78deg 76.05deg 0.7145m"
         field-of-view="15.06deg" interpolation-decay="200">
         <button class="Hotspot" slot="hotspot-4" data-target="0.13m -497.26m 43.88m"
@@ -67,7 +67,7 @@
         </div>
     </model-viewer>
 
-    <script src="../script.js"></script>
+    <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
